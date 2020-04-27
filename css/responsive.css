@@ -1,0 +1,102 @@
+/* TABLET */
+@media all and (max-width: 1000px) {
+  .about-wrapper {
+    height: 427px;
+  }
+
+  .team {
+    display: inline-block;
+  }
+
+  .team-content {
+    width: 100%;
+  }
+}
+
+/* SMARTPHONE */
+@media all and (max-width: 670px) {
+  .logo a {
+    font-size: 20px;
+  }
+
+  .logo span {
+    font-size: 1em;
+  }
+
+  .top-wrapper .motto {
+    font-size: 40px;
+    padding-top: 240px;
+  }
+
+  .about-wrapper {
+    height: 500px;
+    padding-top: 25px;
+  }
+
+  .about-heading hr {
+    width: 100%
+  }
+
+  .about {
+    font-size: 16px;
+  }
+
+  .about-wrapper img {
+    width: 100%;
+  }
+
+  .header-list {
+    display: none;
+  }
+
+  .menu-icon {
+    padding-bottom: 10px;
+    display: block;
+  }
+
+  .team-wrapper {
+    padding-top: 25px;
+  }
+
+	.team-heading hr {
+	  width: 100%;
+	}
+
+  .team {
+    width: 100%;
+    display: inline-block;
+  }
+
+  .team-content p {
+    font-size: 13px;
+    width: 100%;
+    font-weight: block;
+    color: #7B68EE;
+    text-align: left;
+  }
+
+  .team-content {
+    width: 100%;
+  }
+
+	.born span {
+    padding-left: 56px;
+  }
+
+  .domicile span {
+    padding-left: 34px;
+  }
+
+  .profession span {
+    padding-left: 25px;
+  }
+
+  .text-contents span {
+    padding-left: 40px;
+  }
+
+  .contact img {
+    width: 10%;
+    opacity: 0.8;
+  }
+}
